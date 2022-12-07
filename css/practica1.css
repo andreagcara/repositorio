@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Oswald' , sans-serif;
+	font-weight: 400;
+}
+header{
+	display: none;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+}
+nav li{
+	flex-grow: 1;
+}
+nav a{
+	display: block;
+	height: 100vh;
+	background: url("../img/blanco.jpg") no-repeat center;
+	background-size: cover;
+	color:white;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 8em;
+	font-weight: 500;
+	position: relative;
+}
+nav span{
+	position: absolute;
+	right: 40px;
+	bottom: 40px;
+}
+nav li:first-child a{
+	background-image: url(../img/azul.jpg);
+}
+nav li:last-child a{
+	background-image: url(../img/rojo.jpg);
+}
